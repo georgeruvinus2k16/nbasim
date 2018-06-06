@@ -1,0 +1,239 @@
+/*======= GENERAL MAIN STYLES =======*/
+#seasons_list_table{
+	font-size:12px;
+	font-family:Verdana;
+	margin-left:30px;
+}
+#seasons_list_table tr#headrow th{
+	 font-size:14px;
+}
+#seasons_list_table td{
+	padding-top:6px;
+	padding-bottom:6px;
+	padding-left:25px;
+	padding-right:25px;
+}
+#seasons_list_table a{
+	text-decoration:none;
+}
+.page_titles{
+	text-align:center;
+	font-size:30px;
+	font-weight:bold;
+}
+.confs{
+    font-family:Verdana;
+	text-align:center;
+	font-size:20px;
+}
+.team_standings_season tr td{
+    font-family:Verdana;
+	font-size:15px;
+	
+}
+.team_standings_season tr th{
+	font-size:15px;
+	font-family:Times New Roman;
+	background:#6699FF;
+}
+.team_standings_season tr.listrow{
+	background:#99CCFF;
+	color:#000;
+}
+.team_standings_season tr.listrow:hover{
+	background:#99CCFF;
+	color:#000;
+}
+.team_standings_season tr.elim{
+	background:#99CCFF;
+	color:#000;
+	opacity:.60;
+}
+.team_standings_season2 tr td{
+    font-family:Verdana;
+	font-size:12px;
+}
+input[type=button]{
+	font-size:11px;
+}
+.records{
+	padding-left:30px;
+	padding-right:30px;
+	text-align:center;
+}
+#playoff_stage{
+    margin-top:20px;
+    margin-left:auto;
+    margin-right:auto;
+    float:none;
+    font-family:Verdana;
+}
+#playoff_stage td{
+	color:#FFF;
+}
+.g_series{
+	text-align:center;
+	cursor:pointer;
+}
+.team_pad_east{
+    width:125px;
+	font-weight:bold;
+	border-top:2px solid #CCC;
+	border-right:2px solid #CCC;
+	border-bottom:2px solid #CCC;
+}
+.team_pad_west{
+    width:125px;
+    font-weight:bold;
+	border-top:2px solid #CCC;
+	border-left:2px solid #CCC;
+	border-bottom:2px solid #CCC;
+}
+#stage_header{
+	font-size:14px;
+	text-align:center;
+}
+.east_border{
+		border-right:2px solid #CCC;
+}
+.west_border{
+		border-left:2px solid #CCC;
+}
+#trophic{
+      margin:0;
+      width:135px;
+      height:225px;
+      background-image:url(../images/tp14.png); 
+}
+#playofflogo{
+      margin-left:auto;
+      margin-right:auto;
+      float:none;
+      width:300px;
+      height:78px;
+      background-image:url(../images/playoffs_logo.png); 
+}
+body#stage_bg{
+      background-image:url(../images/stage_bg.jpg); 
+}
+#match_up_detail{
+	height:auto;
+	margin-left:auto;
+	margin-right:auto;
+	float:none;
+}
+#matchup_table{
+	font-family:Verdana;
+	font-size:12px;
+	width:auto;
+	margin-left:auto;
+	margin-right:auto;
+	float:none;
+}
+#matchup_table td{
+	padding:3px;
+}
+#teams_frame{
+	margin:10px;
+	
+}
+#teams_frame table{
+	
+	font-size:2em;
+	margin-left:auto;
+	margin-right:auto;
+}
+.team_achive{
+    font-family:Verdana;
+	padding-top:0;
+	padding-bottom:15px;
+	font-size:12px;
+}
+#teams_frame table td.team_pads{
+    font-family:Rockwell;
+	width:500px;
+	font-weight:bold;
+	cursor:pointer;
+	
+}
+#teams_frame table td.team_pads a{
+	text-decoration:none;
+	
+}
+#team_rafter{
+	width:100%;
+	margin:0;
+	color:#FFF;
+}
+#team_name{
+	font-size:8em;
+	font-family:Georgia;
+	font-weight:bold;
+	text-align:center;
+}
+.team_history{
+    padding-top:5px;
+    padding-bottom:3px;
+    padding-left:30px;
+	font-size:16px;
+	font-family:Verdana;
+}
+.arena_rafter{
+    margin-top:0;
+    margin-left:auto;
+    margin-right:auto;
+    float:none;
+}
+.arena_rafter td{
+    padding:5px;
+    border:2px solid #999;
+}
+body{
+	background-attachment:fixed;
+}
+body#por{
+		background-image:url(../images/courts/por.jpg); 
+		
+}
+.trophy_img{
+	width:100px;
+	height:130px;
+	margin-left:auto;
+	margin-right:auto;
+	float:none;
+	background-image:url(../images/larry_o.jpg);
+}
+.conf_champ_img{
+	width:100px;
+	height:120px;
+	margin-left:auto;
+	margin-right:auto;
+	float:none;
+	color:#000;
+	font-family:Cambria;
+	background:#FFFFFF;
+	text-align:center;
+	font-size:14px;
+	font-weight:bold;
+	padding-top:10px;
+	border:1px solid #CCC;
+	outline-color:#FFF;
+	outline-style:dashed;
+	
+}
+.champ_year{
+    margin-left:auto;
+	margin-right:auto;
+	float:none;
+	text-align:center;
+	width:100px;
+	padding-top:3px;
+	height:18px;
+	font-family:Cambria;
+	font-size:15px;
+	font-weight:bold;
+	font-style:italic;
+}
+.ctm{
+	text-align:center;
+}
